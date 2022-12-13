@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>THEME</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Dark</string>
+			<key>Key</key>
+			<string>theme_mode</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>User Info</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Name</string>
+			<key>Key</key>
+			<string>user_name</string>
+			<key>DefaultValue</key>
+			<string></string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+            <key>Type</key>
+            <string>PSMultiValueSpecifier</string>
+            <key>Title</key>
+            <string>Experience Level</string>
+            <key>Key</key>
+            <string>experience_level</string>
+            <key>DefaultValue</key>
+            <string>junior</string>
+            <key>Values</key>
+            <array>
+			    <string>fresher</string>
+                <string>junior</string>
+                <string>middle</string>
+                <string>senior</string>
+            </array>
+            <key>Titles</key>
+            <array>
+                <string>Fresher</string>
+                <string>Junior</string>
+                <string>Middle</string>
+                <string>Senior</string>
+            </array>
+        </dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Tracking location</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Allow tracking</string>
+			<key>Key</key>
+			<string>allow_tracking</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+            <key>Type</key>
+            <string>PSRadioGroupSpecifier</string>
+            <key>Title</key>
+            <string>PREFERRED TIME OF TRACKING</string>
+            <key>Key</key>
+            <string>tracking_type</string>
+            <key>DefaultValue</key>
+            <string>0</string>
+            <key>Values</key>
+            <array>
+			    <string>0</string>
+                <string>15</string>
+                <string>30</string>
+                <string>60</string>
+            </array>
+            <key>Titles</key>
+            <array>
+                <string>Always</string>
+                <string>Per 15 minutes</string>
+                <string>Per 30 minutes</string>
+                <string>Per 1 hour</string>
+            </array>
+        </dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Gravity</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Key</key>
+			<string>slider_preference</string>
+			<key>DefaultValue</key>
+			<real>0.5</real>
+			<key>MinimumValue</key>
+			<integer>0</integer>
+			<key>MaximumValue</key>
+			<integer>1</integer>
+			<key>MinimumValueImage</key>
+			<string></string>
+			<key>MaximumValueImage</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>
